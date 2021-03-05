@@ -1,0 +1,63 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/mudaFoto-index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="cabecalho">
+    <header>
+        <h2 id="txt1">Processo de Estágio Padawans</h2>
+        <h3 id="txt2">Framework-2021</h3>
+    </header>
+</div> 
+<hr>   
+
+<section id="caixa1">  
+    <div id="informacoes">
+        <p>Neste menu você poderá ter acesso as nossas 3 tabelas contruídas:</p>
+        <ul>
+            <li> Tabela de Postagens; </li>
+            <li> Tabela de Álbuns; </li>
+            <li> Tabela com To-Dos. </li>
+        </ul>
+    </div>   
+    <div id="redirecionar">
+        <h2> Clique nos <label id="nomes">nomes</label> para ser redirecionado para as respectivas páginas!</h2>
+    </div>
+</section>
+   
+<aside id="caixa2">
+    <div id="links">
+        <tr>
+            <th><img id="img-p" src="img/img-postagens.png"
+                onmouseover="mudaFoto1('img/img-postagens2.png')" onmouseout="mudaFoto1('img/img-postagens.png')">
+                <th><a class="legendas" href="table01.html">Postagens</a></th>
+            </th>
+            <p>  
+            <th><img id="img-a" src="img/img-albuns.png"
+                onmouseover="mudaFoto2('img/img-albuns2.png')"
+                onmouseout="mudaFoto2('img/img-albuns.png')">
+                <th><a class="legendas" href="table02.html">Álbuns</a></th>
+            </th>
+            <p>
+            <th><img id="img-t" src="img/img-to.do.png"
+                onmouseover="mudaFoto3('img/img-to.do2.png')" onmouseout="mudaFoto3('img/img-to.do.png')">
+                <th><a class="legendas" href="table03.html">To-Dos</a></th>
+            </th>
+        </tr>
+    </div>
+</aside>
+    
+<footer>
+    <hr class="hr-footer">
+    <div class="itens-footer">
+        <img src="img/GitHub-Icon.png">
+        <h5><a href="https://github.com/Dianaaaf" class="git-footer">GitHub - Diana Alves</a></h5>
+    </div>    
+</footer>
+
+</body>
+</html>

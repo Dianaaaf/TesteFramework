@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+
+/*TAGS UNIVERSAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 30px;
+    margin-bottom: -4px;
+    margin-left: -6px;
+    margin-right: -4px;
+    padding: 2px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+/*TAGS COM ID*/
+#Voltar{
+    margin-bottom: -17px;
+    margin-left: 9px;
+    text-decoration: none;
+    color: black;
+    font-family: "Arial";
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: black 2px;
+    border-bottom: black 2px;
+    border-left: black 2px;
+    border-right: black 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 6px;
+}
+#Voltar:hover{
+    background-color: #9370DB;
+}
+#txt1{
+    margin-top: -20px;
+    margin-bottom: 0px;
+    font-family: "DejaVu Sans Mono", monospace;
+    color: #912CEE;
+    text-shadow: 1px 1px black;
+    font-size: 21pt;
+}
+#txt2{
+    margin-bottom: -3px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: "Andale Mono", monospace;
+    font-size: 14pt;
+    color: #551A8B;
+    font-weight: bold;
+    font-style: italic;
+}
+#table01{
+    margin-left: 6px;
+}
+#table02{
+    margin-left: 200px;
+}
+#table03{
+    margin-left: 155px;
+}
+#nameTable03{
+    margin-right: 108px;
+}
+#title-02, #title-03{
+    text-align: center;
+}
+
+
+
+/*TAGS COM CLASS*/
+.Voltar{
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.hr-header{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.textos{
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.denominacaoTable{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: -3px;
+    font-family: "Comic Sans MS, Comic Sans", cursive;
+    font-size: 22pt;
+    font-weight: bold;
+    color: black;
+}
+.nameTable{
+    text-align: right;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 13pt;
+    font-style: italic;
+    color: #4F4F4F;
+}
+.font-thead{
+    font-family: "Georgia", serif;
+    font-size: 15pt;
+    font-style: normal;
+    color: black;
+}
+.colNum{
+    font-family: cursive;
+    font-size: 15pt;
+}
+.col1Titulo, .col2Titulo{
+    font-family: monospace;
+    font-size: 14pt;
+    color: black;
+}
+.col-1{
+    padding-right: 6px;
+}
+.col-2{
+    padding-left: 6px;
+    padding-right: 0px;
+    border-left: 2px solid black;
+    font-family: "Times, Times New Roman", serif;
+    font-size: 12pt;
+    color: black;
+}
+
+
+/*conf. da tabela*/
+table{
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #E8E8E8;
+}
+table td{
+    border-bottom: 1px solid black;
+    padding: 3px;
+} 
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    padding: 3px;
+    margin-top: 70px;
+    clear: both;
+    background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%, rgba(242,242,242,0) 100%);
+    background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(242,242,242,0) 100%);
+    background: linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(242,242,242,0) 100%);
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.hr-footer{
+    margin-top: -7px;
+    margin-bottom: -1px;
+    color: black;
+}
+.itens-footer{
+    padding: 10px;
+    margin-top: -7px;
+}
+.git-footer{
+    color: #0000FF;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+

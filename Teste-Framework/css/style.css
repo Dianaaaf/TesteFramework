@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@media (max-widht: 1370px) and (min-widht:250px){
+    header, #cabecalho, #txt1, #txt2{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #img-p, #img-a, #img-t{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+
+/*TAGS UNIVERSAIS*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+h2{
+    font-family: "Snell Roundhand", cursive;
+    font-size: 17pt;
+    color: #363636;
+    font-style: normal;
+
+}
+p, li, h2{
+    color: black;
+}
+hr{
+    margin-bottom: -10px;
+}
+
+
+
+/*HEADER - CABEÇALHO*/
+header{
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+#txt1{
+    font-family: "DejaVu Sans Mono", monospace;
+    color: #912CEE;
+    text-shadow: 1px 1px black;
+    font-size: 21pt;
+}
+#txt2{
+    margin-top: -22px;
+    margin-bottom: 8px;
+    font-family: "Andale Mono", monospace;
+    font-size: 14pt;
+    color: #551A8B;
+    font-weight: bold;
+    font-style: italic;
+}
+#txt1, #txt2{
+    text-align: center;
+}
+
+
+
+/*LADO DIREITO/ SECTION*/
+p{
+    font-family: "Georgia", serif;
+    font-size: 16pt;
+    color: black;
+    margin-bottom: -5px;
+}
+li{
+    font-family: serif;
+    font-size: 13pt;
+    color: black;
+}
+#caixa1{
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 90px;
+    text-align: start;
+}
+#informacoes{
+    text-align: start;
+}
+#redirecionar{
+    object-position: center;
+    margin-bottom: 70px;
+    margin-top: 55px;
+}
+
+#nomes{
+    color: #EE0000;
+}
+
+
+/*LADO ESQUERDO/ ASIDE*/
+#caixa2{
+    width: 350px;
+    height: 530px;
+    float: right;
+    border-left: 2px solid black;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-right: 100px;
+    text-align: center;
+}
+/*imagens*/
+#img-p, #img-a, #img-t{
+    width: 140px;
+    height: 140px;
+    padding: 9px;
+    margin-top: 2px;
+}
+#img-p{
+    margin-bottom: 0px;
+    margin-left: 53px;
+}
+#img-a{
+    margin-bottom: 0px;
+    margin-left: 55px;
+}
+#img-t{
+    margin-bottom: 0px;
+    margin-left: 55px;
+}
+.legendas{
+    font-family: "Verdana", fantasy;
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+}
+.legendas:hover{
+    color: #EE0000
+}
+
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    padding: 5px;
+    clear: both;
+    background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%, rgba(242,242,242,0) 100%);
+    background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(242,242,242,0) 100%);
+    background: linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(242,242,242,0) 100%);
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.hr-footer{
+    margin-top: -5px;
+    margin-bottom: -8px;
+    color: black;
+}
+.itens-footer{
+    display: inline-flex;
+    padding: 10px;
+    margin-top: -7px;
+}
+.git-footer{
+    color: #0000FF;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
